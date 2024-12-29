@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 160%;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #dedede;
+}
+.main_header__left_elements {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 90px;
+  padding: 0 30px;
+  align-items: center;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  transition: all 0.3s;
+}
+.navbar__right_elements {
+  display: flex;
+  gap: 50px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.navbar__left_elements {
+  display: flex;
+  gap: 50px;
+}
+
+footer {
+  height: 30px;
+  border: 1px dashed red;
+  text-align: center;
+  background: linear-gradient(to right bottom, blue, yellow);
+}
+
+/*# sourceMappingURL=style.css.map */
